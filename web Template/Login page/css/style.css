@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+
+h1, h2, h3, h4, h5, h6, p, span {
+    font-family: "Quattrocento", serif;
+}
+
+.sign-up-a, .forget-a {
+    text-decoration: none;
+}
+
+.sign-up-a:hover, .forget-a:hover {
+    color: #fff !important;
+    text-decoration: underline !important;
+}
+
+hr {
+    color: #fff;
+}
+
+.cover {
+    width: 450px;
+    background-color: black;
+    border-radius: 20px;
+    
+}

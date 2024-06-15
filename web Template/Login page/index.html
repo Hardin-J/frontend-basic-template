@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container mt-5 pt-5">
+        <form class="container mt-5 p-5 cover" action="#">
+            <p class="display-4 text-center text-light">Log <span class="text-info"> In </span></p><hr>
+
+
+            <div class="mb-3">
+                <label for="emailid" class="form-label text-info">Email address</label>
+                <input type="email" class="form-control" placeholder="Enter email address" id="emailid">
+                <div id="emailHelp" class="form-text"> <span class="text-light"> We'll never share your email with anyone else.</span></div>
+            </div>
+            <div class="mb-3">
+                <label for="password" class="form-label text-info">Password</label>
+                <input type="password" class="form-control" placeholder="Enter password" id="password">
+            </div>
+            <div class="mb-3 form-check d-flex justify-content-between">
+                <div>                    
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label text-info" for="exampleCheck1">Remember me</label>
+                </div>
+                <a href="#" class="text-center text-info forget-a">Forget password?</a>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-outline-info ">login</button> <br> <br>
+            </div>
+            <hr>
+            <div class="text-center d-flex justify-content-center">
+                <div>
+                    <p class="text-light">Don't have an account?</p>
+                </div>
+                <div>
+                    <a href="#" class="text-decoration-none text-info sign-up-a " > Sign Up</a>
+                </div>
+             </div>
+        </form>
+    </div>
+
+
+
+</body>
+
+</html>
